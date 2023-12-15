@@ -1,4 +1,4 @@
-module HTTP-Rest-API
+module Go-REST-API
 
 go 1.21.5
 

@@ -1,10 +1,23 @@
-Hello, I have created a simple go project which user gofr, gorm, and mysql.
+Hello, I have created a simple Go project that uses Gofr, Gorm, and MySQL.
 
-This project has a goal to create Rest APIs such as Create , update , delete and put . I have taken firmly small example student which has simple use case for creation .
+This project aims to create REST APIs for basic operations, including create, read, update, and delete. I have create simple example involving a student to illustrate the use case for creation.
 
 This project can be consider for future modification for learning purpose where i can add more feature for a student such as subjects a student can have.
 
-To test this project i have created a database locally using mysql cli with the following commands
+#To test this project i have created a database locally using mysql cli with the following commands:
+
+1. create database students;
+
+2. use database students;
+
+3. CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    class VARCHAR(50),
+    age INT
+   );
+
+4. After that i have used create API and generated students records.
 
 ## 🙇 Application Requirement
 
@@ -18,13 +31,6 @@ To test this project i have created a database locally using mysql cli with the 
 3. Install GoFr
 ```bash   
     go get gofr.dev
-```
-4. Docker :
-   To simplify the setup and management of the database for your REST API, consider using a Docker image for SQL. This approach provides a consistent and isolated environment for your       database, making it easier to manage and maintain. You can use the official MySQL Docker image from this link - https://hub.docker.com/_/mysql
-
-
-
-
 
 ## ⚙️Project-Structure and Setup
 ``` 
