@@ -1,8 +1,8 @@
 package main
 
 import (
-	"simple-rest-api/datastore"
-	"simple-rest-api/handler"
+	"go-rest-api/datastore"
+	"go-rest-api/handler"
 
 	"gofr.dev/pkg/gofr"
 )
