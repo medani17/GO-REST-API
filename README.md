@@ -4,7 +4,7 @@ This project aims to create REST APIs for basic operations, including create, re
 
 This project can be consider for future modification for learning purpose where i can add more feature for a student such as subjects a student can have.
 
-#To test this project i have created a database locally using mysql cli with the following commands:
+## To test this project i have created a database locally using mysql cli with the following commands:
 
 1. create database students;
 
@@ -50,5 +50,18 @@ This project can be consider for future modification for learning purpose where 
         │
         ├── main.go
         ├── go.mod
+
+```
+
+
+To connect to our MySQL DB, we will use the following configs in our `configs/.env` file
+```
+    # DB  
+    DB_HOST=localhost  
+    DB_PORT=3306 
+    DB_USER=root 
+    DB_PASSWORD=Root123  
+    DB_NAME=student_management  
+    DB_DIALECT=mysql
 
 ```

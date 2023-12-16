@@ -1,7 +1,7 @@
 package datastore
 
 import (
-	"simple-rest-api/model"
+	"go-rest-api/model"
 
 	"gofr.dev/pkg/gofr"
 )
