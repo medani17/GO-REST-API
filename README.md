@@ -1,3 +1,4 @@
+![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/6ab27623-0068-459b-961a-9430828521da)
 Hello, I have created a simple Go project that uses Gofr, Gorm, and MySQL.
 
 This project aims to create REST APIs for basic operations, including create, read, update, and delete. I have create simple example involving a student to illustrate the use case for creation.
