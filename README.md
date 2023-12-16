@@ -1,4 +1,3 @@
-![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/6ab27623-0068-459b-961a-9430828521da)
 Hello, I have created a simple Go project that uses Gofr, Gorm, and MySQL.
 
 This project aims to create REST APIs for basic operations, including create, read, update, and delete. I have create simple example involving a student to illustrate the use case for creation.
@@ -64,5 +63,13 @@ To connect to our MySQL DB, we will use the following configs in our `configs/.e
     DB_PASSWORD=Root123  
     DB_NAME=student_management  
     DB_DIALECT=mysql
+
+```
+After our project is succesfully built we have run it with the command go run main.go
+and it then pops the result of successfully connected to the database.
+
+##Test
+
+Then we have used postman and tested different apis that we have made, and got the output similar to the attached images below: 
 
 ```
