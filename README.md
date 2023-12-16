@@ -55,18 +55,20 @@ This project can be consider for future modification for learning purpose where 
         ├── main.go
         ├── go.mod
 
-```
+
 After our project is succesfully built we have run it with the command go run main.go
-and it then pops the result of successfully connected to the database.![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/774a03d0-d9b4-42fc-a502-41b73a034b81)
-![put SS](https://github.com/medani17/GO-REST-API/assets/71040928/590b6b38-e18a-4c31-8580-1e5770009c1b)
-![get ss](https://github.com/medani17/GO-REST-API/assets/71040928/f000831b-fdcc-41ee-bb27-4519be15114c)
-![GET 1](https://github.com/medani17/GO-REST-API/assets/71040928/1193948d-a4c2-44c7-80fc-4d309aef4858)
-![delete ss](https://github.com/medani17/GO-REST-API/assets/71040928/7a21d2e1-c7ae-4dde-b4be-78e684f8a432)
-![create](https://github.com/medani17/GO-REST-API/assets/71040928/4662d0d8-a7d5-4cff-ac94-a3d74e10fd97)
+and it then pops the result of successfully connected to the database.
+![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/774a03d0-d9b4-42fc-a502-41b73a034b81)
 
 
 ##Test
 
 Then we have used postman and tested different apis that we have made, and got the output similar to the attached images below: 
+![create](https://github.com/medani17/GO-REST-API/assets/71040928/4662d0d8-a7d5-4cff-ac94-a3d74e10fd97)
+![put SS](https://github.com/medani17/GO-REST-API/assets/71040928/590b6b38-e18a-4c31-8580-1e5770009c1b)
+![get ss](https://github.com/medani17/GO-REST-API/assets/71040928/f000831b-fdcc-41ee-bb27-4519be15114c)
+![GET 1](https://github.com/medani17/GO-REST-API/assets/71040928/1193948d-a4c2-44c7-80fc-4d309aef4858)
+![delete ss](https://github.com/medani17/GO-REST-API/assets/71040928/7a21d2e1-c7ae-4dde-b4be-78e684f8a432)
+
 
 ```
