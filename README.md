@@ -47,26 +47,23 @@ This project can be consider for future modification for learning purpose where 
         ├── datastore/
         │     ├── datastore.go
         │     └── interface.go
-        │
+        │── test
+        │    ├── datastore_test.go
+        │    ├── handler_test.go
+        │    ├── model_test.go
+        |             |    
         ├── main.go
         ├── go.mod
 
 ```
-
-
-To connect to our MySQL DB, we will use the following configs in our `configs/.env` file
-```
-    # DB  
-    DB_HOST=localhost  
-    DB_PORT=3306 
-    DB_USER=root 
-    DB_PASSWORD=Root123  
-    DB_NAME=student_management  
-    DB_DIALECT=mysql
-
-```
 After our project is succesfully built we have run it with the command go run main.go
-and it then pops the result of successfully connected to the database.
+and it then pops the result of successfully connected to the database.![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/774a03d0-d9b4-42fc-a502-41b73a034b81)
+![put SS](https://github.com/medani17/GO-REST-API/assets/71040928/590b6b38-e18a-4c31-8580-1e5770009c1b)
+![get ss](https://github.com/medani17/GO-REST-API/assets/71040928/f000831b-fdcc-41ee-bb27-4519be15114c)
+![GET 1](https://github.com/medani17/GO-REST-API/assets/71040928/1193948d-a4c2-44c7-80fc-4d309aef4858)
+![delete ss](https://github.com/medani17/GO-REST-API/assets/71040928/7a21d2e1-c7ae-4dde-b4be-78e684f8a432)
+![create](https://github.com/medani17/GO-REST-API/assets/71040928/4662d0d8-a7d5-4cff-ac94-a3d74e10fd97)
+
 
 ##Test
 
