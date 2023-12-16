@@ -61,7 +61,7 @@ and it then pops the result of successfully connected to the database.
 ![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/774a03d0-d9b4-42fc-a502-41b73a034b81)
 
 
-##Test
+## Test
 
 Then we have used postman and tested different apis that we have made, and got the output similar to the attached images below: 
 ![create](https://github.com/medani17/GO-REST-API/assets/71040928/4662d0d8-a7d5-4cff-ac94-a3d74e10fd97)
@@ -69,6 +69,14 @@ Then we have used postman and tested different apis that we have made, and got t
 ![get ss](https://github.com/medani17/GO-REST-API/assets/71040928/f000831b-fdcc-41ee-bb27-4519be15114c)
 ![GET 1](https://github.com/medani17/GO-REST-API/assets/71040928/1193948d-a4c2-44c7-80fc-4d309aef4858)
 ![delete ss](https://github.com/medani17/GO-REST-API/assets/71040928/7a21d2e1-c7ae-4dde-b4be-78e684f8a432)
+
+
+## Diagrams
+1. Architecture Diagram![Architecture Diagram](https://github.com/medani17/GO-REST-API/assets/71040928/5c49370b-db36-4d38-aacf-516ff8c54021)
+2. Sequence Diagram![Sequence Diagram](https://github.com/medani17/GO-REST-API/assets/71040928/2899f84e-6348-443d-8907-2869c21b9135)
+3. UML Diagram
+
+
 
 
 ```
