@@ -1,6 +1,8 @@
+## GO-REST-API
+
 Hello, I have created a simple Go project that uses Gofr, Gorm, and MySQL.
 
-This project aims to create REST APIs for basic operations, including create, read, update, and delete. I have create simple example involving a student to illustrate the use case for creation.
+This project aims to create REST APIs for basic operations, including create, read, update, and delete. I have create simple example involving a student management using these operations to illustrate the use case.
 
 This project can be consider for future modification for learning purpose where i can add more feature for a student such as subjects a student can have.
 
@@ -32,7 +34,25 @@ This project can be consider for future modification for learning purpose where 
 ```bash   
     go get gofr.dev
 ```
-## ⚙️Project-Structure and Setup
+## Setup Project
+
+1. Clone the Project
+``` bash
+   git clone <project_url>
+   cd <project_directory>
+```
+2. Install Dependencies (Make sure that Go and MySQL are installed on your computer)
+3. Create a Local MySQL Database
+``` bash
+   mysql -u root -p
+```
+4. Run the Program
+``` bash
+   go run main.go
+```
+5. Test with Postman
+
+## ⚙Project-Structure and Setup
 
     HTTP-Rest-API/
         ├── configs/
@@ -65,6 +85,9 @@ and it then pops the result of successfully connected to the database.
 ## Unit Test
 Then we have used postman and tested different apis that we have made, and got the output similar to the attached images below: 
 ![create](https://github.com/medani17/GO-REST-API/assets/71040928/4662d0d8-a7d5-4cff-ac94-a3d74e10fd97)
+![put SS](https://github.com/medani17/GO-REST-API/assets/71040928/590b6b38-e18a-4c31-8580-1e5770009c1b)
+![get ss](https://github.com/medani17/GO-REST-API/assets/71040928/f000831b-fdcc-41ee-bb27-4519be15114c)
+![GET 1](https://github.com/medani17/GO-REST-API/assets/71040928/1193948d-a4c2-44c7-80fc-4d309aef4858)
 ![delete ss](https://github.com/medani17/GO-REST-API/assets/71040928/7a21d2e1-c7ae-4dde-b4be-78e684f8a432)
 
 
