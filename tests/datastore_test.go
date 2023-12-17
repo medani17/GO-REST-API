@@ -3,8 +3,8 @@ package tests
 import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"gofr.dev/pkg/gofr"
-	"simple-rest-api/datastore"
-	"simple-rest-api/model"
+	"go-rest-api/datastore"
+	"go-rest-api/model"
 	"testing"
 )
 
