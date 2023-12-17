@@ -70,7 +70,7 @@ func TestGetByIDHandler(t *testing.T) {
 	mockStore.On("GetByID", mock.Anything, "1").Return(&model.Student{ID: 1, Name: "John Doe", Age: 20, Class: "Math"}, nil)
 
 	mockContext := new(gofr.Context)
-s
+
 	result, err := h.GetByID(mockContext)
 
 	expected := &model.Student{ID: 1, Name: "John Doe", Age: 20, Class: "Math"}
