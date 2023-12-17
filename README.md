@@ -31,9 +31,9 @@ This project can be consider for future modification for learning purpose where 
 3. Install GoFr
 ```bash   
     go get gofr.dev
-
+```
 ## ⚙️Project-Structure and Setup
-``` 
+
     HTTP-Rest-API/
         ├── configs/
         │     └── .env
