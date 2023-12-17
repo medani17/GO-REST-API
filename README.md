@@ -31,9 +31,9 @@ This project can be consider for future modification for learning purpose where 
 3. Install GoFr
 ```bash   
     go get gofr.dev
-
+```
 ## ⚙️Project-Structure and Setup
-``` 
+
     HTTP-Rest-API/
         ├── configs/
         │     └── .env
@@ -47,16 +47,25 @@ This project can be consider for future modification for learning purpose where 
         ├── datastore/
         │     ├── datastore.go
         │     └── interface.go
-        │
+        │── test
+        │    ├── datastore_test.go
+        │    ├── handler_test.go
+        │    ├── model_test.go
+        |             |    
         ├── main.go
         ├── go.mod
 
 ```
 
-After our project is succesfully built we have run it with the command go run main.go
-and it then pops the result of successfully connected to the database.(you can check the image [run ss.jpeg]) 
 
-##Test
+To connect to our MySQL DB, we will use the following configs in our `configs/.env` file
+```
+    # DB  
+    DB_HOST=localhost  
+    DB_PORT=3306 
+    DB_USER=root 
+    DB_PASSWORD=Root123  
+    DB_NAME=student_management  
+    DB_DIALECT=mysql
 
-Then we have used postman and tested different apis that we have made, and got the output similar to the attached images below: 
-
+```
