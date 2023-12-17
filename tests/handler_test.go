@@ -60,7 +60,6 @@ func TestGetAllHandler(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Equal(t, expected, result)
 
-	// Assert that the expectations were met
 	mockStore.AssertExpectations(t)
 }
 
@@ -70,13 +69,10 @@ func TestGetByIDHandler(t *testing.T) {
 
 	mockStore.On("GetByID", mock.Anything, "1").Return(&model.Student{ID: 1, Name: "John Doe", Age: 20, Class: "Math"}, nil)
 
-	// Create a test context
 	mockContext := new(gofr.Context)
-
-	// Call the GetByID handler
+s
 	result, err := h.GetByID(mockContext)
 
-	// Validate the result
 	expected := &model.Student{ID: 1, Name: "John Doe", Age: 20, Class: "Math"}
 	assert.NoError(t, err)
 	assert.Equal(t, expected, result)
@@ -90,12 +86,10 @@ func TestCreateHandler(t *testing.T) {
 
 	mockStore.On("Create", mock.Anything, mock.AnythingOfType("*model.Student")).Return(&model.Student{ID: 1, Name: "John Doe", Age: 20, Class: "Math"}, nil)
 
-	// Create a test context
 	mockContext := new(gofr.Context)
 
 	result, err := h.Create(mockContext)
 
-	// Validate the result
 	expected := &model.Student{ID: 1, Name: "John Doe", Age: 20, Class: "Math"}
 	assert.NoError(t, err)
 	assert.Equal(t, expected, result)
@@ -121,6 +115,7 @@ func TestUpdateHandler(t *testing.T) {
 }
 
 func TestDeleteHandler(t *testing.T) {
+
 	mockStore := &MockStudentStore{}
 
 	h := handler.New(mockStore)

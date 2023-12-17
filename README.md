@@ -53,15 +53,10 @@ This project can be consider for future modification for learning purpose where 
 
 ```
 
+After our project is succesfully built we have run it with the command go run main.go
+and it then pops the result of successfully connected to the database.(you can check the image [run ss.jpeg]) 
 
-To connect to our MySQL DB, we will use the following configs in our `configs/.env` file
-```
-    # DB  
-    DB_HOST=localhost  
-    DB_PORT=3306 
-    DB_USER=root 
-    DB_PASSWORD=Root123  
-    DB_NAME=student_management  
-    DB_DIALECT=mysql
+##Test
 
-```
+Then we have used postman and tested different apis that we have made, and got the output similar to the attached images below: 
+
