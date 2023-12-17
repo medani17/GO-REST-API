@@ -94,7 +94,7 @@ func TestStore_Delete(t *testing.T) {
 
 	ctx := &gofr.Context{}
 	s := datastore.New()
-
+        
 	teststudentID := 1
 
 	err = s.Delete(ctx, teststudentID)
