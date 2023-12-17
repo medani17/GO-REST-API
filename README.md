@@ -21,7 +21,7 @@ This project can be consider for future modification for learning purpose where 
 
 4. After that i have used create API and generated students records.
 
-## 🙇 Application Requirement
+## Application Requirement
 
 1.  Install Go version - 1.21.5 via 
  * https://go.dev/doc/install
@@ -42,7 +42,10 @@ This project can be consider for future modification for learning purpose where 
    cd <project_directory>
 ```
 2. Install Dependencies (Make sure that Go and MySQL are installed on your computer)
-3. Create a Local MySQL Database
+```bash
+     go mod tidy
+```
+4. Create a Local MySQL Database
 ``` bash
    mysql -u root -p
 ```
@@ -70,13 +73,11 @@ This project can be consider for future modification for learning purpose where 
         │── test
         │    ├── datastore_test.go
         │    ├── handler_test.go
-        │    ├── model_test.go
         |                 
         ├── main.go
         ├── go.mod
 
-```
-```
+
 After our project is succesfully built we have run it with the command go run main.go
 and it then pops the result of successfully connected to the database.
 ![run ss](https://github.com/medani17/GO-REST-API/assets/71040928/774a03d0-d9b4-42fc-a502-41b73a034b81)
